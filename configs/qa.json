@@ -1,0 +1,23 @@
+{
+    "task": "qa",
+    "num_of_seeds": 1,
+    "initial_seed": 123,
+    "epochs_per_seed": 10,
+    "train_batch_size": 16,
+    "max_seq_length": 512,
+    "models": [
+        {
+            "model_name": "ConfliBERT-scr-uncased",
+            "model_huggingface_path": "snowood1/ConfliBERT-scr-cased",
+            "dataset_huggingface_path": "lucadiliello/newsqa",
+            "final_model_name": "test_model",
+            "final_model_output_directory": "model_output/",
+            "language": "english",
+            "architecture": "bert",
+            "num_epochs": 1,
+            "learning_rate": 1e-5,
+            "num_seeds": 1,
+            "batch_size": 8
+        }
+    ]
+}

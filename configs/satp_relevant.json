@@ -1,0 +1,16 @@
+{
+    "task": "multilabel",
+    "num_of_seeds": 1,
+    "initial_seed": 123,
+    "epochs_per_seed": 10,
+    "train_batch_size": 16,
+    "max_seq_length": 256,
+    "models": [
+        {
+            "model_name": "ConfliBERT-scr-uncased",
+            "model_path": "snowood1/ConfliBERT-scr-uncased",
+            "architecture": "bert",
+            "do_lower_case": true
+        }
+    ]
+}
