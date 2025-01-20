@@ -115,3 +115,11 @@ Below is an example using 8 GPUs. We have provided our parameters in the Appendi
 
 If you find this repo useful in your research, please consider citing:
 
+@inproceedings{li2024conflilpc,
+  title={ConfliLPC: Logits and Parameter Calibration for Political Conflict Analysis in Continual Learning},
+  author={Li, Xiaodi and Zawad, Niamat and Brandt, Patrick T and Osorioc, Javier and D’Orazio, Vito and Khan, Latifur},
+  booktitle={2024 IEEE International Conference on Big Data (BigData)},
+  pages={6320--6329},
+  year={2024},
+  organization={IEEE}
+}
