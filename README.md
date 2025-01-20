@@ -1,6 +1,6 @@
-# ConfliLPC: Logits and Parameter Calibration for Political Conflict Analysis in Continual Learning (PSBD 2024)
+# ConfliLPC: Logits and Parameter Calibration for Political Conflict Analysis in Continual Learning (BigData 2024)
 
-This repository contains the essential code for the paper [ConfliLPC: Logits and Parameter Calibration for Political Conflict Analysis in Continual Learning (PSBD 2024)].
+This repository contains the essential code for the paper [ConfliLPC: Logits and Parameter Calibration for Political Conflict Analysis in Continual Learning (BigData 2024)].
 
 ## Prerequisites
 The code is written by Python 3.6 in Linux system. The cuda version is 10.2. 
@@ -115,6 +115,7 @@ Below is an example using 8 GPUs. We have provided our parameters in the Appendi
 
 If you find this repo useful in your research, please consider citing:
 
+```
 @inproceedings{li2024conflilpc,
   title={ConfliLPC: Logits and Parameter Calibration for Political Conflict Analysis in Continual Learning},
   author={Li, Xiaodi and Zawad, Niamat and Brandt, Patrick T and Osorioc, Javier and D’Orazio, Vito and Khan, Latifur},
@@ -123,3 +124,4 @@ If you find this repo useful in your research, please consider citing:
   year={2024},
   organization={IEEE}
 }
+```
