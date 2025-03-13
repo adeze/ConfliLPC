@@ -1,4 +1,29 @@
 #!/usr/bin/env python
+This script fine-tunes HuggingFace library models for masked language modeling (MLM) on a text file or a dataset.
+It supports models like BERT, ALBERT, RoBERTa, etc. The script can be adapted for custom MLM tasks.
+
+Usage:
+    - Provide a model checkpoint for weights initialization or train a model from scratch.
+    - Specify the dataset name or provide training/validation files in CSV, JSON, or TXT format.
+    - Configure various training parameters such as max sequence length, MLM probability, and preprocessing options.
+
+Main Functions:
+    - ModelArguments: Defines arguments for model/config/tokenizer selection.
+    - DataTrainingArguments: Defines arguments for data input for training and evaluation.
+    - main: Main function to parse arguments, setup logging, load datasets, initialize model and tokenizer, preprocess data, and train/evaluate the model.
+
+Example:
+    To run the script with a JSON configuration file:
+    ```
+    python run_mlm.py config.json
+    ```
+
+Dependencies:
+    - datasets: For loading and processing datasets.
+    - transformers: For model, tokenizer, and training utilities.
+
+License:
+    Licensed under the Apache License, Version 2.0. See the LICENSE file for more details.
 # coding=utf-8
 # Copyright 2020 The HuggingFace Team All rights reserved.
 #
